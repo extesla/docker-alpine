@@ -1,0 +1,9 @@
+# Directories
+.git/
+.vagrant/
+#repo/
+temp/
+
+# Files
+.DS_Store
+vagrant.json
