@@ -1,9 +1,6 @@
 # Directories
-.git/
-.vagrant/
-#repo/
+.history/
 temp/
 
 # Files
 .DS_Store
-vagrant.json
