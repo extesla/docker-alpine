@@ -25,7 +25,7 @@ FROM alpine:3.7
 MAINTAINER Sean Quinn "sean.quinn@extesla.com"
 
 RUN apk update
-RUN apk add --no-cache ack bash curl gpgme sudo su-exec tzdata wget \
+RUN apk add --no-cache ack bash curl gpgme shadow sudo su-exec tzdata wget \
  && rm -rf /var/cache/apk/* \
  && chmod u+s /bin/su /sbin/su-exec
 
