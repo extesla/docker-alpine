@@ -22,7 +22,7 @@
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 FROM alpine:3.7
-MAINTAINER Sean Quinn "sean.quinn@extesla.com"
+LABEL maintainer="Sean Quinnsean.quinn@extesla.com"
 
 RUN apk update
 RUN apk add --no-cache ack bash curl gpgme shadow sudo su-exec tzdata wget \
